@@ -1,26 +1,288 @@
-.root {
-  width: 100%;
-  height: 80vh;
-  display: flex;
-}
+ * {
+   margin: 0;
+   padding: 0;
+ }
 
-.controlPanel{
-  width: 10%;
-}
-.mainPanel{
-  width: 90%;
-  height: 100%;
-}
-.overview{
-  height: 50%;
-}
-.otherview{
-  height: 50%;
-  display: flex;
-}
-.detailView{
-  width: 50%;
-}
-.assistView{
-  width: 50%;
-}
+ .root {
+   width: 100%;
+   height: 366vh;
+   background-color: #F8F0ED;
+
+ }
+
+
+ /* 头部栏css开始 */
+ .head {
+   width: 100%;
+   height: 45px;
+   display: block;
+   float: none;
+   background-color: #F7F0ED;
+ }
+
+ .head:after {
+   content: "";
+   display: block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+ }
+
+ .anchor {
+   margin-left: 10px;
+   background-color: #F7F7F7;
+   float: right;
+   font-size: 15px;
+   line-height: 40px;
+ }
+
+ .anchorBox {
+   padding: 0;
+   margin: 0;
+   height: 40px;
+   float: right;
+   list-style-type: none;
+ }
+
+ .headContent {
+   color: black;
+   font-weight: 700;
+   padding-left: 150px;
+   font-size: 20px;
+   line-height: 40px;
+ }
+
+ /* 头部栏css结束 */
+ /* 介绍栏css开始 */
+ .introduce {
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+   height: 800px;
+   background-image: url(picture/introduce-background.jpg);
+   background-repeat: no-repeat;
+   background-position: left top;
+   background-size: 100% 100%;
+   float: none;
+   position: relative;
+ }
+
+ .introduceTitle {
+   color: white;
+   position: absolute;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: italic;
+   font-size: 70px;
+   padding: 10px;
+   top: 150px;
+   left: 150px;
+   width: 800px;
+   height: 500px;
+   background-color: transparent;
+ }
+
+ .smallIntroduceTitle {
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: italic;
+   font-size: 50px;
+   padding: 10px;
+   background-color: transparent;
+ }
+
+ .introduceContent {
+   font-size: 20px;
+ }
+
+ /* 介绍栏css结束 */
+ /* 数据分析栏开始 */
+ .dataVisualization {
+   width: 100%;
+   height: 1800px;
+ }
+
+ .overallGraph {
+   display: block;
+   width: 100%;
+   height: 900px;
+   background-color: rgb(47, 135, 202);
+ }
+
+ .systermGraph {
+   display: block;
+   width: 100%;
+   height: 900px;
+   background-color: aquamarine;
+ }
+
+ /* 数据分析栏结束 */
+
+ /* 结论部分开始 */
+ .conclusion {
+   position: relative;
+   width: 100%;
+   height: 900px;
+   background-color: bisque;
+ }
+
+ .conclusionButtonBox {
+   background-color: white;
+   text-align: center;
+ }
+
+ .conclusionButton {
+   border-color: white;
+   width: 100px;
+   height: 25px;
+ }
+
+ .conclusionPictureBox {
+   width: 50%;
+   height: 97%;
+   float: left;
+   background-color: pink;
+ }
+
+ .conclusionTextBox {
+   width: 50%;
+   height: 97%;
+   float: right;
+   background-color: #F6F0ED;
+ }
+
+ .conclusionTextTitle {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 60px;
+   font-style: italic;
+   font-weight: 800;
+   margin-left: 130px;
+   margin-top: 150px;
+   background-color: aqua;
+ }
+
+ .conclusionTextContent {
+   background-color: aquamarine;
+   height: 400px;
+   margin-top: 45px;
+   margin-left: 100px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 30px;
+   font-style: italic;
+ }
+
+ .finalConclusion {
+   font-size: 45px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 500;
+   font-style: italic;
+   background-color: lightblue;
+   margin-left: 100px;
+   height: 100px;
+ }
+
+ /* 结论部分结束 */
+ /* 结尾部分开始 */
+ .rear {
+   position: relative;
+   margin: 0 auto;
+   width: 95%;
+   height: 700px;
+   background-color: white;
+ }
+
+ .partnerInfoTitle {
+   position: absolute;
+   width: 600px;
+   height: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 30px;
+   font-weight: 600;
+   font-style: italic;
+   left: 630px;
+   top: 130px;
+   background-color: transparent;
+ }
+
+ .partnerLabelBox {
+   position: absolute;
+   left: 220px;
+   top: 200px;
+   width: 1200px;
+   height: 300px;
+   background-color: transparent;
+ }
+
+ .partnerLabel {
+   position: relative;
+   width: 360px;
+   height: 300px;
+   margin-right: 40px;
+   float: left;
+   background-color: #F2F2F2;
+   border-radius: 15px;
+ }
+
+ .partnerImage {
+   position: absolute;
+   left: 20px;
+   top: 20px;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background-color: #CCCBCB;
+ }
+
+ .partnerName {
+   position: absolute;
+   left: 200px;
+   top: 40px;
+   font-size: 25px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 400;
+
+ }
+
+ .partnerWords {
+   position: absolute;
+   left: 20px;
+   top: 138px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: large;
+   font-style: italic;
+   font-weight: 500;
+   color: #8A8E8E;
+ }
+
+ .contactUs {
+   position: absolute;
+   bottom: 10px;
+   left: 700px;
+
+ }
+
+ /* 结尾部分结束 */
+ .controlPanel {
+   width: 10%;
+ }
+
+ .mainPanel {
+   width: 90%;
+   height: 100%;
+ }
+
+ .overview {
+   height: 50%;
+ }
+
+ .otherview {
+   height: 50%;
+   display: flex;
+ }
+
+ .detailView {
+   width: 50%;
+ }
+
+ .assistView {
+   width: 50%;
+ }
