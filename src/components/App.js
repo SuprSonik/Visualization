@@ -1,27 +1,26 @@
 // 本文件是界面UI的根目录
 
 import React from 'react';
-import Head from './Head';
-import Introduce from './Introduce';
+import Head from './Head.js';
+import Introduce from './Introduce.js';
 import Conclusion from './Conclusion.js';
 import PartnerInfo from './PartnerInfo.js';
 import OtherInfo from './OtherInfo.js';
-import AssistView from './AssistView';
-import ControlPanel from './ControlPanel';
-import Overview from './Overview';
-import DetailView from './DetailView';
-
-import Graph1LineChart from './Graph1LineChart';
-import Graph2LineChart from './Graph2LineChart';
-import Graph3BarCharttype from './Graph3BarCharttype';
-import Graph4ModelName from './Graph4ModelName';
-import Graph5SamplingTarget from './Graph5SamplingTarget';
-import Graph6SamplingMethod from './Graph6SamplingMethod';
-import Graph7DownsamplingLevel from './Graph7DownsamplingLevel';
-import Graph8RunIndex from './Graph8RunIndex';
-import Graph9PieChart from './Graph9PieChart';
-
+import AssistView from './AssistView.js';
+import ControlPanel from './ControlPanel.js';
+import Overview from './Overview.js';
+import DetailView from './DetailView.js';
 import '../css/App.css'
+
+import Graph1LineChart from './Graph1LineChart.js';
+import Graph2LineChart from './Graph2LineChart.js';
+import Graph3BarCharttype from './Graph3BarCharttype.js';
+import Graph4ModelName from './Graph4ModelName.js';
+import Graph5SamplingTarget from './Graph5SamplingTarget.js';
+import Graph6SamplingMethod from './Graph6SamplingMethod.js';
+import Graph7DownsamplingLevel from './Graph7DownsamplingLevel.js';
+import Graph8RunIndex from './Graph8RunIndex.js';
+import Graph9PieChart from './Graph9PieChart.js';
 
 // App组件
 function App() {
